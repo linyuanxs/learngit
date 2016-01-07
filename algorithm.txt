@@ -1,0 +1,35 @@
+\begin{algorithm}
+	\caption{Edge remove}
+	\label{alg_remove}
+	\textbf{Input:} The EMST result of all edges $E_i, i=0, 1, 2... i<n$, and the valence of each node $V_p$. p is the point. 
+	\\
+	\textbf{Output:} $R_j, j=0,1,2... j<s$  //return the left edges;
+	\begin{algorithmic}
+		
+		\STATE $L_0 \leftarrow 0, s=0$ // initiate the $L_0$ 
+		\STATE $E_i = \{a_i, b_i\}$   // every edge includes two point a, b;
+	    \WHILE{true}
+		\FOR{$i=0$ to $n$}
+	    \STATE // There are three status;
+	    
+		%\FORALL{$j$ such that $0\leq j\leq s$}
+		\IF{$V_{a_i}$ equals 1 and $V_{b_i}$ equals 2}
+		\STATE $V_{a_i}$=$V_{a_i}$ - 1
+		\STATE $V_{b_i}$=$V_{b_i}$ - 1
+		\ELSIF{$V_{b_i}$ equals 1 and $V_{a_i}$ equals 2}
+		\STATE $V_{a_i}$=$V_{a_i}$ - 1
+		\STATE $V_{b_i}$=$V_{b_i}$ - 1
+		\ELSIF{$V_{b_i}$ equals 1 and $V_{a_i}$ $>$ 2}
+		\STATE remove $E_i$
+		\STATE $a_i$ = $a_i$-1;
+		\ELSIF{$V_{a_i}$ equals 1 and $V_{b_i}$ $>$ 2}
+		\STATE remove $E_i$
+		\STATE $b_i$ = $b_i$-1;
+		\ENDIF
+		\ENDFOR
+		\IF{The size of edges vector $E$ hasn't changed}
+		\RETURN
+		\ENDIF
+		\ENDWHILE
+	\end{algorithmic}
+\end{algorithm}
