@@ -15,3 +15,8 @@ git config --global user.email "linyuanxs@foxmail"
  It is a good tool to save my work!
  
 
+4. git log  --pretty=oneline // return one line information of all file motifition information;
+   git reset --hard HEAD^ // return to the  last file.  HEAD^^ turn to the last last file, HEAD ~100 ...
+   
+ 
+  
