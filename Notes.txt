@@ -8,5 +8,6 @@ Git Learning notes:
 3. git status // return the information of the file operation ;the old time remember;
    git diff  filename // look up the difference of the file between this time and the last time.
    
-
+ It is a good tool to save my work!
+ 
 
