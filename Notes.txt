@@ -1,0 +1,7 @@
+Git Learning notes:
+1. GIT global name: "Curry Eiden"
+   Git global email: "linyuanxs@foxmail.com"
+   
+2. git add "filename"
+   git commit -m "description"
+  
