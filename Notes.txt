@@ -20,3 +20,5 @@ git config --global user.email "linyuanxs@foxmail"
    
  Today is tired. 
   
+  
+ 5. git checkout filenmae // remove the last modification information;
