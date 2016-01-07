@@ -1,4 +1,8 @@
 Git Learning notes:
+
+git config --global user.name "Curry Eiden"
+git config --global user.email "linyuanxs@foxmail"
+
 1. GIT global name: "Curry Eiden"
    Git global email: "linyuanxs@foxmail.com"
    
