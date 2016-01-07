@@ -33,3 +33,5 @@
 		\ENDWHILE
 	\end{algorithmic}
 \end{algorithm}
+
+//This is the first vision of GIT test;
