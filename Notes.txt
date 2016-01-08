@@ -22,3 +22,11 @@ git config --global user.email "linyuanxs@foxmail"
   
   
  5. git checkout filenmae // remove the last modification information;
+ 
+ // connect with the Internet; remote processing
+ 6. ssh-keygen -t rsa -C "linyuanxs@foxmail"  // generate the key text
+ 
+    git remote add origin git@github.com:linyuanxs/learngit.git
+	
+	
+    
