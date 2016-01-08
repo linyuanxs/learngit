@@ -27,6 +27,22 @@ git config --global user.email "linyuanxs@foxmail"
  6. ssh-keygen -t rsa -C "linyuanxs@foxmail"  // generate the key text
  
     git remote add origin git@github.com:linyuanxs/learngit.git
+     
+	 ssh  git@github.com // test the internet connection;
+    git push -u origin master // push the data up to Internet
+7. git clone git@github.com:linyuanxs/learngit.git
+
+8.  Build a branch
+    git checkout -b dev //switched to a new branch "dev" -b means build and change to the transfer
+	git branch dev 
+	git checkout dev
+	
+	git branch //view all branch
+	git checkout master // trans  to master branch
+	
+	git merge dev // merge the branch to master;
+	git branch -d dev // delete the branch dev
+	
 	
 	
     
